@@ -14,8 +14,8 @@ app.get("/token", async (req, res) => {
       "https://api-sdx.apps.ambientesbc.com/ext/sandbox/v1/business-support/it-management/oauth2/token",
       qs.stringify({
         grant_type: "client_credentials",
-        client_id:abbd5e58fc05d8b2846e313dd27cfe73,
-        client_secret:232855d1b9f6248abac93d7428aae652,
+        client_id:"abbd5e58fc05d8b2846e313dd27cfe73",
+        client_secret:"232855d1b9f6248abac93d7428aae652",
         scope: "qr-codes:write:app"
       }),
       {
